@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse((api) => {
-  api.versionsFrom("1.10.3-beta.9");
+  api.versionsFrom('2.3');
 
   api.use("ecmascript");
   api.use("accounts-base", ["client", "server"]);
