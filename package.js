@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Login service for Your Membership accounts",
-  version: "1.0.3",
+  version: "1.1.0",
   name: "pathable:accounts-your-membership",
   git: "https://github.com/pathable/accounts-your-membership",
 });
@@ -14,7 +14,7 @@ Package.onUse((api) => {
   api.imply("accounts-base", ["client", "server"]);
 
   api.use("accounts-oauth", ["client", "server"]);
-  api.use("pathable:your-membership-oauth@1.0.3");
+  api.use("pathable:your-membership-oauth@1.1.0");
   api.imply("pathable:your-membership-oauth");
 
   api.addFiles("your_membership.js");
